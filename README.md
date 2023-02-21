@@ -39,3 +39,12 @@ move()
 left()
 move()
 report() => Output: 3, 3, NORTH 
+
+***additional readme***
+Robot is smart and can take commands like 
+place(0,0, 'North')
+place(0,0, NORTH)
+place(0,0, North)   
+place(0,0,North))
+place(0, 0, North) 
+if the commands are still not understood by Robot, it will throw an error of invalid command.
